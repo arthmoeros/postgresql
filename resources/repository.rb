@@ -23,7 +23,7 @@ property :enable_pgdg_common,                 [true, false], default: true
 property :enable_pgdg_source,                 [true, false], default: false
 property :enable_pgdg_updates_testing,        [true, false], default: false
 property :enable_pgdg_source_updates_testing, [true, false], default: false
-property :yum_gpg_key_uri, String, default: 'https://download.postgresql.org/pub/repos/yum/RPM-GPG-KEY-PGDG'
+property :yum_gpg_key_uri, String, default: 'https://download.postgresql.org/pub/repos/yum/keys/RPM-GPG-KEY-PGDG'
 property :apt_gpg_key_uri, String, default: 'https://download.postgresql.org/pub/repos/apt/ACCC4CF8.asc'
 
 action :add do
